@@ -51,10 +51,91 @@
       <ul>
         <!-- El aria label se puede indicar a casi todas las etiquetas y nos sirve para indicarle el proposito a un lector de pagina para hacerla mas accecible -->
         <li><a href="#">Linkedin</a></li>
-        <!-- En el caso de quere integrarla aqui seri -->
+        <!-- En el caso de querer integrarla aqui seria dentro del li y no del <a> -->
         <li><a href="#">GitHub</a></li>
         <li><a href="#">Twitter</a></li>
       </ul>
     </nav>
+    <main>
+      <!-- Resumen profesional -->
+      <section aria-labelledby="resumen-pro">
+        <!-- El aria-labelledby= es para indicarles a los lectores un elemento cercano que ya contiene informacion para no ser redundante-->
+        <h2 id="resumen-pro">Resumen profesional</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          <br />
+          atque, vitae vel dicta in dolore cupiditate neque odit ullam nostrum
+          <br />
+          doloremque facilis ipsam similique quo temporibus ab sapiente nisi!
+          <br />
+          Est?
+        </p>
+        <!-- Hay que tener en cuenta no ser redundante -->
+      </section>
+
+      <!-- Habilidades y herramientas -->
+      <section aria-labelledby="habilities">
+        <h2 id="habilities">Habilidades y herramientas</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>Github</li>
+          <li>Contro de versiones</li>
+          <li>Git</li>
+          <li>Accesibilidad y SEO</li>
+        </ul>
+      </section>
+
+      <!-- Proyectos realizados -->
+      <section aria-labelledby="proyectos">
+        <h2 id="proyectos">Proyectos realizados</h2>
+
+        <article>
+          <!-- Un article tambien puede contener contenedores como si fuera una pagina entera -->
+          <header>
+            <h3>Una lista de hobbies con estilo</h3>
+            <p>
+                <time datetime="2024-11">Noviembre 2024</time>
+                <!-- formato yyyy-mm-dd -->
+                <span>Tecnologias: HTML GitHub</span>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus qui corrupti natus accusamus nemo iusto deleniti a
+              alias autem voluptas. Deleniti amet eligendi hic, pariatur facilis
+              placeat excepturi accusamus accusantium!
+            </p>
+          </header>
+          <figure>
+            <img src="https://picsum.photos/200" alt="lorem picsum">
+            <figcaption>lorem picsum</figcaption>
+          </figure>
+          <a href="https://github.com/JonyR3G0/practica-metadatos" target="_blank">Ver en GitHub</a>
+        </article>
+
+        <article>
+            <!-- Un article tambien puede contener contenedores como si fuera una pagina entera -->
+            <header>
+              <h3>Mi receta</h3>
+              <p>
+                  <time datetime="2024-11">Noviembre 2024</time>
+                  <!-- formato yyyy-mm-dd -->
+                  <span>Tecnologias: HTML GitHub</span>
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus qui corrupti natus accusamus nemo iusto deleniti a
+                alias autem voluptas. Deleniti amet eligendi hic, pariatur facilis
+                placeat excepturi accusamus accusantium!
+              </p>
+            </header>
+            <figure>
+              <img src="https://picsum.photos/201" alt="lorem picsum">
+              <figcaption>lorem picsum</figcaption>
+            </figure>
+            <a href="https://github.com/JonyR3G0/practica-metadatos" target="_blank">Ver en GitHub</a>
+          </article>
+
+      </section>
+    </main>
   </body>
 </html>
