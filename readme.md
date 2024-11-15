@@ -1,2 +1,2 @@
 ## 💼 Mini CV/Metadatos 🌌
-[SEO](./assets/img/info.gif)
+![SEO](./assets/img/info.gif)
