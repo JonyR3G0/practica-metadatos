@@ -89,14 +89,14 @@
       <section aria-labelledby="proyectos">
         <h2 id="proyectos">Proyectos realizados</h2>
 
-        <article>
+        <article aria-label="Un proyecto sobre hobbies">
           <!-- Un article tambien puede contener contenedores como si fuera una pagina entera -->
           <header>
             <h3>Una lista de hobbies con estilo</h3>
             <p>
-                <time datetime="2024-11">Noviembre 2024</time>
-                <!-- formato yyyy-mm-dd -->
-                <span>Tecnologias: HTML GitHub</span>
+              <time datetime="2024-11">Noviembre 2024</time>
+              <!-- formato yyyy-mm-dd -->
+              <span>Tecnologias: HTML GitHub</span>
             </p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -106,36 +106,53 @@
             </p>
           </header>
           <figure>
-            <img src="https://picsum.photos/200" alt="lorem picsum">
+            <img src="https://picsum.photos/200" alt="lorem picsum" />
             <figcaption>lorem picsum</figcaption>
           </figure>
-          <a href="https://github.com/JonyR3G0/practica-metadatos" target="_blank">Ver en GitHub</a>
+          <a
+            href="https://github.com/JonyR3G0/practica-metadatos"
+            target="_blank"
+            >Ver en GitHub</a
+          >
         </article>
 
-        <article>
-            <!-- Un article tambien puede contener contenedores como si fuera una pagina entera -->
-            <header>
-              <h3>Mi receta</h3>
-              <p>
-                  <time datetime="2024-11">Noviembre 2024</time>
-                  <!-- formato yyyy-mm-dd -->
-                  <span>Tecnologias: HTML GitHub</span>
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus qui corrupti natus accusamus nemo iusto deleniti a
-                alias autem voluptas. Deleniti amet eligendi hic, pariatur facilis
-                placeat excepturi accusamus accusantium!
-              </p>
-            </header>
-            <figure>
-              <img src="https://picsum.photos/201" alt="lorem picsum">
-              <figcaption>lorem picsum</figcaption>
-            </figure>
-            <a href="https://github.com/JonyR3G0/practica-metadatos" target="_blank">Ver en GitHub</a>
-          </article>
-
+        <article aria-label="Un proyecto sobre una receta">
+          <!-- Un article tambien puede contener contenedores como si fuera una pagina entera -->
+          <header>
+            <h3>Mi receta</h3>
+            <p>
+              <time datetime="2024-11">Noviembre 2024</time>
+              <!-- formato yyyy-mm-dd -->
+              <span>Tecnologias: HTML GitHub</span>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus qui corrupti natus accusamus nemo iusto deleniti a
+              alias autem voluptas. Deleniti amet eligendi hic, pariatur facilis
+              placeat excepturi accusamus accusantium!
+            </p>
+          </header>
+          <figure>
+            <img src="https://picsum.photos/201" alt="lorem picsum" />
+            <figcaption>lorem picsum</figcaption>
+          </figure>
+          <a
+            href="https://github.com/JonyR3G0/practica-metadatos"
+            target="_blank"
+            >Ver en GitHub</a
+          >
+        </article>
       </section>
+
+      <aside aria-labelledby="contacto-t">
+        <h2 id="contacto-t">Contacto</h2>
+        <p>Si deseas conectar conmigo para un proyecto o una colaboracion contactame en:</p>
+        <address>
+            <!-- esta etiqueta sirve para labelear direcciones como email -->
+            <p>Email <a href="mailto:aaaaaa@gmail.com">aaaaaa@gmail.com</a></p>
+            <p>333 3333 333</p>
+        </address>
+      </aside>
     </main>
   </body>
 </html>
